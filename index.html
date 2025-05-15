@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+   <div id="header">
+    <div class="continer">
+        <nav>
+            <img src="portfolio.png" class="logo">
+             <ul> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> -->
+            </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmemu()"></i>  -->
+        </nav>
+       <div class="home">
+            <div class="header-text">
+                      <p>UI/UX Developer</p>
+                      <h1>Hi, I'm <span>Mahesh Kavuluri</span></h1>
+               </div>
+               <div class="image-container">
+                        <img src="mahesh anime.jpg" class="bg" alt="Profile Image">
+           </div>
+     </div>
+
+    </div>
+    <!-- ---------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mahesh.jpeg" style="width:400px;margin-right: 50px;">
+                </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I believe in creating user-centered designs that are both functional and aesthetically pleasing. My approach blends empathy, creativity, and technical proficiency to craft seamless digital experiences. I prioritize understanding user needs through research and feedback, ensuring that every design decision enhances usability and accessibility.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>HTML</span><br>Frontend Development</li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>JavaScript</span><br></li>
+                            <li><span>Figma</span><br></li>
+                            <li><span>photoshop</span><br></li>
+                            <li><span>Graphic designer</span><br></li>
+                            <li><span>Bootstrap</span><br></li>
+                            <li><span>wordpress</span><br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Electrical & Electronics Engineering from Raghu Engineering College, Visakhapatnam. </li>
+                            <li><span>2018-2020</span><br>Intermediate Education(MPC) from Amaravathi Jr College, Vizianagaram.</li>
+                            <li><span>2017-2018</span><br>Matriculation from Mythri Vidyanikethan, Vizianagaram.</li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services--------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafting visually compelling, responsive, and user-focused websites that align with your brand and drive engagement. From wireframes to polished interfaces, I design experiences that not only look great but also perform seamlessly across devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Designing intuitive and engaging digital experiences that prioritize user needs. I combine usability, accessibility, and aesthetics to create interfaces that feel natural and drive meaningful interaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Creating sleek, user-friendly mobile app interfaces that deliver seamless experiences across iOS and Android. I focus on functional design, smooth navigation, and aesthetic appeal to keep users engaged and coming back.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- -----------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="html.jpg">
+                <div class="layer">
+                    <h3>HTML and CSS</h3>
+                    <p>A simple and efficient task management tool to help you stay organized and productive. Add, edit, delete, and mark tasks as complete—all in a clean, user-friendly interface.</p>
+                    <a href="https://maheshkavuluri28.github.io/html_css/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="JS.png">
+                <div class="layer">
+                    <h3>Javascript</h3>
+                    <p>A powerful scripting language used to build dynamic, interactive, and responsive web experiences. I use JavaScript to bring life to websites—handling user interactions, animations, and real-time updates with clean, efficient code.</p>
+                    <a href="https://maheshkavuluri28.github.io/counter_js/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="css.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Building a strong online presence through tailored content, consistent branding, and strategic engagement. I help brands connect with their audience, grow followers, and turn likes into loyal customers.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------contact------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>maheshkavuluri28@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9908059290</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Udayasri-Koppala" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="images/Sri Professional CV.pdf"  class="btn btn2" target="_blank">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="copyright">
+    <p>copyrights made by Mahesh</p>
+ </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<!-- <script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script> -->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzFIJrdPPxY7FsTBTtYKvDwk0tvzMHmZIrovYN4Y79gwF-mqimRSaRWy6Z4Wh99_8UT/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Message sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
